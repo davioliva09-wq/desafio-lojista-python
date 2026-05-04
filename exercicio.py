@@ -10,7 +10,7 @@ class Pessoa:
 
 class Aluno(Pessoa):
     def __init__(self, nome, idade, endereco, CPF, matricula, curso):
-        super().__init__(nome, idade, endereco, CPF) #super é usado para evitar que eu tenha que repetir código, no caso eu teria que reescrever 4 linhas de código 
+        super().__init__(nome, idade, endereco, CPF) #é usado para evitar que eu tenha que repetir código, no caso eu teria que reescrever 4 linhas de código 
         #no caso, self.nome = nome
        # self.idade = idade
        # self.endereco = endereco
